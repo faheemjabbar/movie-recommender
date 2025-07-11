@@ -97,12 +97,6 @@ download_file_from_gdrive("1eJsG9WEW7ZvkhngmCFW35ve3JLlqY7Xx", "similarity.pkl")
 # 📒 Load Data
 with open("movies.pkl", "rb") as f:
     movies = pickle.load(f)
-# 📒 Load Data
-with open("movies.pkl", "rb") as f:
-    movies = pickle.load(f)
-
-# ✅ DEBUG: Show columns in Streamlit app
-st.write("Columns in movies.pkl:", movies.columns.tolist())
 
 with open("similarity.pkl", "rb") as f:
     similarity = pickle.load(f)
