@@ -1,8 +1,7 @@
 streamlit==1.46.1
 pandas==2.3.1
-numpy==2.3.1
 scikit-learn==1.7.0
 requests==2.32.4
 fuzzywuzzy==0.18.0
 gdown==5.2.0
-streamlit-searchbox==0.1.5
+python-Levenshtein==0.12.0
